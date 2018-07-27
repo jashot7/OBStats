@@ -1,7 +1,10 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.3c3b0de9.js",
-  "main.js.map": "static/js/main.3c3b0de9.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.5a56e5af.css",
+  "main.css.map": "static/css/main.5a56e5af.css.map",
+  "main.js": "static/js/main.2a8a0a5b.js",
+  "main.js.map": "static/js/main.2a8a0a5b.js.map",
+  "static/media/Lazer84.ttf": "static/media/Lazer84.b12d7dca.ttf",
+  "static/media/SFAlienEncounters.ttf": "static/media/SFAlienEncounters.aeabf9ec.ttf",
+  "static/media/Streamster.ttf": "static/media/Streamster.c86f6e31.ttf",
+  "static/media/VCR_OSD_MONO_1.001.ttf": "static/media/VCR_OSD_MONO_1.001.5fcd6c65.ttf"
 }

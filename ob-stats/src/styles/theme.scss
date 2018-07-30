@@ -1,0 +1,146 @@
+@import './neon.scss';
+
+body {
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+}
+
+/* Colors */
+$clr-bg1: rgb(4,4,4);
+$clr-primary1: rgb(255,255,255);
+$clr-accent1: rgb(59,0,113);
+$clr-accent2: rgb(0,213,154);
+$clr-accent3: rgb(226,0,165);
+
+.clr-bg-bg1 {
+  background-color: $clr-bg1;
+}
+
+.clr-bg-bg2 {
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+}
+
+.clr-bg-primary1 {
+  background-color: $clr-primary1;
+}
+
+.clr-bg-accent1 {
+  background-color: $clr-accent1;
+}
+
+.clr-bg-accent2 {
+  background-color: $clr-accent2;
+}
+
+.clr-bg-accent3 {
+  background-color: $clr-accent3;
+}
+
+.clr-primary1 {
+  color: $clr-primary1;
+}
+
+.clr-accent1 {
+  color: $clr-accent1;
+}
+
+.clr-accent2 {
+  color: $clr-accent2;
+}
+
+.clr-accent3 {
+  color: $clr-accent3;
+}
+
+
+/* Fonts */
+@font-face {
+  font-family: 'Streamster';
+  src: local('Streamster'), url(./fonts/streamster/Streamster.ttf);
+}
+
+@font-face {
+  font-family: 'SFAlienEncounters';
+  src: local('SFAlienEncounters'), url(./fonts/sfalienenc/TrueType/SFAlienEncounters.ttf);
+}
+
+@font-face {
+  font-family: 'vcrosdmono';
+  src: local('vcrosdmono'), url(./fonts/vcrosdmono/VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+  font-family: 'Lazer84';
+  src: local('Lazer84'), url(./fonts/laser84/Lazer84.ttf);
+}
+
+$fnt-primary: 'vcrosdmono';
+$fnt-accent1: 'Streamster';
+$fnt-accent2: 'SFAlienEncounters';
+$fnt-accent3: 'Lazer84';
+
+.fnt-primary {
+  font-family: $fnt-primary;
+}
+
+.fnt-accent1 {
+  font-family: $fnt-accent1;
+}
+
+.fnt-accent2 {
+  font-family: $fnt-accent2;
+}
+
+.fnt-accent3 {
+  font-family: $fnt-accent3;
+}
+
+.fnt-large {
+  font-size: 1.5rem;
+}
+
+.fnt-larger {
+  font-size: 2.0rem;
+}
+
+.fnt-huge, .fnt-huge-unless-mobile {
+  font-size: 3.0rem;
+}
+
+@media screen and (max-width: 640px) {
+  .fnt-huge-unless-mobile {
+    font-size: 2.0rem;
+  }
+}
+
+.fnt-center {
+  text-align: center;
+}
+
+// Chart color overrides
+.ct-series-a .ct-slice-pie {
+  fill: $clr-accent3 !important;
+}
+
+.ct-series-b .ct-slice-pie {
+  fill: $clr-accent2 !important;
+}
+
+.ct-series-c .ct-slice-pie {
+  fill: $clr-accent1 !important;
+}
+
+.ct-series-d .ct-slice-pie {
+  fill: darken($clr-accent3, 10%) !important;
+}
+
+.ct-series-e .ct-slice-pie {
+  fill: darken($clr-accent2, 10%) !important;
+}
+
+.ct-label {
+  fill: $clr-primary1 !important;
+  font-size: 1rem;
+}
+

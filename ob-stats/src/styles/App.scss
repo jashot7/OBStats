@@ -1,0 +1,89 @@
+
+@import './theme.scss';
+@import './flex.scss';
+
+.ob-stats-app-container {
+  // padding: 5px 10px;
+  // margin: 24px;
+  display: grid;
+  // grid-gap: 15px;
+  height: 100vh;
+  // width: 100vw;
+  grid-template-areas:
+  "header"
+  "section"
+  "footer";
+  grid-template-rows: 120px auto 180px;
+  font-family: 'vcrosdmono';
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/* Padding & Margins */
+.padSm {
+  padding: 1rem;
+}
+
+.padMd {
+  padding: 2rem;
+}
+
+.marSm {
+  margin: 1rem;
+}
+
+.marMd {
+  margin: 2rem;
+}
+
+.gutter-right {
+  margin-right: 10px
+}
+
+.gutter-left {
+  margin-left: 10px;
+}
+
+/* Alignment */
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Debug Classes */
+.debug {
+
+  border: 2px solid;
+
+  &.dotted {
+    border-style: dotted;
+  }
+
+  &.orange {
+    border-color: orange;
+  }
+
+  &.red {
+    border-color: red;
+  }
+
+  &.blue {
+    border-color: blue;
+  }
+
+  &.green {
+    border-color: green;
+  }
+
+}
+

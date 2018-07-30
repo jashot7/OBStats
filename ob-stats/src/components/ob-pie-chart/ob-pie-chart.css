@@ -1,0 +1,8 @@
+.ob-pie-chart {
+  padding: 10px;
+  margin: 20px;
+  flex: 1 1 auto;
+}
+.ob-pie-chart .ob-chartist-pie {
+  height: 500px;
+}

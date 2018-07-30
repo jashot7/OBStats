@@ -1,0 +1,242 @@
+/** Text Shadow**/
+$neon-shadow1-start: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+$neon-shadow1-end: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+
+$neon-shadow2-start: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+$neon-shadow2-end:  0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+
+$neon-shadow3-start:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+$neon-shadow3-end: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+
+$neon-shadow4-start: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+$neon-shadow4-end: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+
+$neon-shadow5-start:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+$neon-shadow5-end:  0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+
+$neon-shadow6-start:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+$neon-shadow6-end: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+
+/** Keyframes **/
+@keyframes neontext1 {
+  from {
+    text-shadow: $neon-shadow1-start;
+  }
+  to {
+    text-shadow:  $neon-shadow1-end;
+  }
+}
+
+@keyframes neontext2 {
+  from {
+    text-shadow: $neon-shadow2-start;
+  }
+  to {
+    text-shadow:  $neon-shadow2-end;
+  }
+}
+
+@keyframes neontext3 {
+  from {
+    text-shadow: $neon-shadow3-start;
+  }
+  to {
+    text-shadow:  $neon-shadow3-end;
+  }
+}
+
+@keyframes neontext4 {
+  from {
+    text-shadow: $neon-shadow4-start;
+  }
+  to {
+    text-shadow:  $neon-shadow4-end;
+  }
+}
+
+@keyframes neontext5 {
+  from {
+    text-shadow: $neon-shadow5-start;
+  }
+  to {
+    text-shadow:  $neon-shadow5-end;
+  }
+}
+
+@keyframes neontext6 {
+  from {
+    text-shadow: $neon-shadow6-start;
+  }
+  to {
+    text-shadow:  $neon-shadow6-end;
+  }
+}
+
+@keyframes neonbox1 {
+  from {
+    box-shadow: $neon-shadow1-start;
+  }
+  to {
+    box-shadow:  $neon-shadow1-end;
+  }
+}
+
+@keyframes neonbox2 {
+  from {
+    box-shadow: $neon-shadow2-start;
+  }
+  to {
+    box-shadow:  $neon-shadow2-end;
+  }
+}
+
+@keyframes neonbox3 {
+  from {
+    box-shadow: $neon-shadow3-start;
+  }
+  to {
+    box-shadow:  $neon-shadow3-end;
+  }
+}
+
+@keyframes neonbox4 {
+  from {
+    box-shadow: $neon-shadow4-start;
+  }
+  to {
+    box-shadow:  $neon-shadow4-end;
+  }
+}
+
+@keyframes neonbox5 {
+  from {
+    box-shadow: $neon-shadow5-start;
+  }
+  to {
+    box-shadow:  $neon-shadow5-end;
+  }
+}
+
+@keyframes neonbox6 {
+  from {
+    box-shadow: $neon-shadow6-start;
+  }
+  to {
+    box-shadow:  $neon-shadow6-end;
+  }
+}
+
+$anim-neontext1: neontext1 1.5s ease-in-out infinite alternate;
+$anim-neontext2: neontext2 1.5s ease-in-out infinite alternate;
+$anim-neontext3: neontext3 1.5s ease-in-out infinite alternate;
+$anim-neontext4: neontext4 1.5s ease-in-out infinite alternate;
+$anim-neontext5: neontext5 1.5s ease-in-out infinite alternate;
+$anim-neontext6: neontext6 1.5s ease-in-out infinite alternate;
+
+$anim-neonbox1: neontext1 1.5s ease-in-out infinite alternate;
+$anim-neonbox2: neonbox2 1.5s ease-in-out infinite alternate;
+$anim-neonbox3: neonbox3 1.5s ease-in-out infinite alternate;
+$anim-neonbox4: neonbox4 1.5s ease-in-out infinite alternate;
+$anim-neonbox5: neonbox5 1.5s ease-in-out infinite alternate;
+$anim-neonbox6: neonbox6 1.5s ease-in-out infinite alternate;
+
+.neontext1-anim {
+  animation: $anim-neontext1;
+}
+
+.neontext2-anim {
+  animation: $anim-neontext2;
+}
+
+.neontext3-anim {
+  animation: $anim-neontext3;
+}
+
+.neontext4-anim {
+  animation: $anim-neontext4;
+}
+
+.neontext5-anim {
+  animation: $anim-neontext5;
+}
+
+.neontext6-anim {
+  animation: $anim-neontext6;
+}
+
+.neonbox1-anim {
+  animation: $anim-neonbox1;
+}
+
+.neonbox2-anim {
+  animation: $anim-neonbox2;
+}
+
+.neonbox3-anim {
+  animation: $anim-neonbox3;
+}
+
+.neonbox4-anim {
+  animation: $anim-neonbox4;
+}
+
+.neonbox5-anim {
+  animation: $anim-neonbox5;
+}
+
+.neonbox6-anim {
+  animation: $anim-neonbox6;
+}
+
+
+.neontext1 {
+  text-shadow: $neon-shadow1-end;
+}
+
+.neontext2 {
+  text-shadow: $neon-shadow2-end;
+}
+
+.neontext3 {
+  text-shadow: $neon-shadow3-end;
+}
+
+.neontext4 {
+  text-shadow: $neon-shadow4-end;
+}
+
+.neontext5 {
+  text-shadow:$neon-shadow5-end;
+}
+
+.neontext6 {
+  text-shadow:$neon-shadow6-end;
+}
+
+.neonbox1 {
+  box-shadow: $neon-shadow1-end;
+}
+
+.neonbox2 {
+  box-shadow: $neon-shadow2-end;
+}
+
+.neonbox3 {
+  box-shadow: $neon-shadow3-end;
+}
+
+.neonbox4 {
+  box-shadow: $neon-shadow4-end;
+}
+
+.neonbox5 {
+  box-shadow: $neon-shadow5-end;
+}
+
+.neonbox6 {
+  text-shadow: $neon-shadow6-end;
+}
+
+.neonbox1-sm {
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177;
+}

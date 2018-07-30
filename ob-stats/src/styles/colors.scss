@@ -1,0 +1,31 @@
+/* Colors */
+.clr-bg-bg1 {
+  background-color: #040404; }
+
+.clr-bg-primary1 {
+  background-color: white; }
+
+.clr-bg-accent1 {
+  background-color: #3b0071; }
+
+.clr-bg-accent2 {
+  background-color: #00d59a; }
+
+.clr-bg-accent3 {
+  background-color: #e200a5; }
+
+.clr-primary1 {
+  color: white; }
+
+/* Fonts */
+@font-face {
+  font-family: 'Streamster';
+  src: local("Streamster"), url(./fonts/streamster/Streamster.ttf); }
+
+@font-face {
+  font-family: 'SFAlienEncounters';
+  src: local("SFAlienEncounters"), url(./fonts/sfalienenc/TrueType/SFAlienEncounters.ttf); }
+
+@font-face {
+  font-family: 'vcrosdmono';
+  src: local("vcrosdmono"), url(./fonts/vcrosdmono/VCR_OSD_MONO_1.001.ttf); }
